@@ -1,0 +1,78 @@
+body{
+    margin : 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+/************************FACE*******************/
+
+.face{
+    background-color: rgb(99, 97, 97);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.profile-pic{
+    width: 1fr;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.name{
+    text-align: center;
+    padding: 10px;
+}
+
+.name-bg{
+    background-color: rgb(255, 204, 0);
+}
+
+
+
+/************************CONTACT*******************/
+
+
+.contact{
+    background-color: rgb(236, 236, 236);
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+
+
+
+
+/*************************DATA**********************/
+.data{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(101, 101, 101);
+    
+}
+
+
+.data-heading{
+    text-align:center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+@media (max-width: 700px) {
+    .data {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
